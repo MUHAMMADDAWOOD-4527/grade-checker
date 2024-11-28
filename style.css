@@ -1,0 +1,82 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+/* Styling the Header */
+h2 {
+    font-size: 2.5rem;
+    color: #4A90E2;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling Form Elements */
+label {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-right: 10px;
+    color: #333;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    width: 250px;
+    font-size: 1rem;
+    transition: box-shadow 0.3s ease;
+    margin-top: 10px;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: 0 0 8px rgba(74, 144, 226, 0.8);
+}
+
+/* Button Styling */
+button {
+    background: #4A90E2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background: #357ABD;
+    transform: translateY(-2px);
+}
+
+button:active {
+    background: #2D6CA3;
+    transform: translateY(1px);
+}
+
+/* Result Div Styling */
+#result {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #000203;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
